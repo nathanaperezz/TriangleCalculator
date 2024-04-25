@@ -1,13 +1,13 @@
-let aSide, bSide, cSide;
+/* Triangle Calculator
+ * takes input of 2 sides lengths to calculate the third side length.
+ * Created by Nathan Perez
+ * Last Edited 25 April 2024
+ */
 
 document.getElementById("EnterBtn").onclick = function () {
-    aSide = document.getElementById("aSide").value;
-    bSide = document.getElementById("bSide").value;
-    cSide = document.getElementById("cSide").value;
-
-    console.log(aSide);
-    console.log(bSide);
-    console.log(cSide);
+    let aSide = document.getElementById("aSide").value;
+    let bSide = document.getElementById("bSide").value;
+    let cSide = document.getElementById("cSide").value;
 
     //ensure user left 1 input blank
     let sidesBlank = 0;
